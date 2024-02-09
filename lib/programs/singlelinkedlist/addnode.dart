@@ -21,8 +21,6 @@ class LinkedList {
     }
   }
 
-  
-
   void display() {
     Node? curremt = head;
     while (curremt != null) {
@@ -36,4 +34,5 @@ void main() {
   LinkedList ls = LinkedList();
   ls.addNode(32);
   ls.addNode(23);
+  ls.display();
 }
